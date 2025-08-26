@@ -53,15 +53,15 @@ press and glide to play: **x = pitch**, **y = volume**.
 
 ## browser support & permissions
 
-- **Audio**: Uses `AudioContext`. Some mobile browsers (iOS Safari) require a **tap** to start audio.
-- **Recording**: Uses `MediaRecorder`. Availability varies by browser—Chrome/Edge/Firefox are good; iOS Safari support may lag. The app falls back with a notice if unsupported.
+- **audio**: uses `AudioContext`. some mobile browsers (ios safari) require a **tap** to start audio.
+- **recording**: uses `MediaRecorder`. availability varies by browser—chrome/edge/firefox are good; ios safari support may lag. the app falls back with a notice if unsupported.
 
 ---
 
 ## troubleshooting
 
 - **no sound**: click the pad once to unlock audio. Check system output device/volume.
-- **recording button disabled or no file after stop**: your browser may not support `MediaRecorder` for audio—try Chrome or Firefox.
+- **recording button disabled or no file after stop**: your browser may not support `MediaRecorder` for audio—try chrome or firefox.
 - **very harsh highs**: try **warm-saw** or **warm-square** wave types.
 
 ---
