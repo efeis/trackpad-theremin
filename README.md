@@ -34,8 +34,8 @@ try it here:
 - **reverb**
   - `ConvolverNode` buffer is generated at runtime (simple noisy tail with exponential decay).
 - **pointer → sound mapping**
-  - horizontal (x) → frequency in **log scale** between 130–2000 Hz.
-  - vertical (y) → volume envelope (quadratic for more control near the bottom).
+  - horizontal (x) -> frequency in **log scale** between 130–2000 Hz.
+  - vertical (y) -> volume envelope (quadratic for more control near the bottom).
   - optional **quantization** snaps to nearest MIDI note.
 - **smoothing**
   - parameter changes are smoothed with `setTargetAtTime` to avoid zipper noise.
@@ -57,7 +57,7 @@ try it here:
 ## browser support & permissions
 
 - **audio**: uses `AudioContext`. some mobile browsers (ios safari) require a **tap** to start audio.
-- **recording**: uses `MediaRecorder`. availability varies by browser—chrome/edge/firefox are good; ios safari support may lag. the app falls back with a notice if unsupported.
+- **recording**: uses `MediaRecorder`. availability varies by browser-chrome/edge/firefox are good; ios safari support may lag. the app falls back with a notice if unsupported.
 
 ---
 
