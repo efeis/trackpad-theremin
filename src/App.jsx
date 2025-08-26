@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import logo from './assets/efeis-cutout.png';
 
 export default function App() {
   // ----------------------------- state & refs -----------------------------
@@ -529,7 +530,7 @@ export default function App() {
           <div className="inline-flex items-center gap-2 text-[12px] text-[#9A9A9A]">
             <span>a project by</span>
             <a href="https://twitter.com/efeis1" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4C4C4C] hover:underline" aria-label="efeis on twitter">efeis</a>
-            <img src="/efeis-cutout.png" alt="efeis logo" className="h-4 w-4 object-contain" />
+            <img src={logo} alt="efeis logo" className="h-4 w-4 object-contain" />
           </div>
         </div>
       </div>
