@@ -3,7 +3,8 @@
 a minimalist **trackpad theremin** built with React and the Web Audio API.  
 press and glide to play: **x = pitch**, **y = volume**.
 
-try it here: efeis.github.io/trackpad-theremin/ 
+try it here:
+[efeis.github.io/trackpad-theremin/ ](https://efeis.github.io/trackpad-theremin/)
 
 ---
 
