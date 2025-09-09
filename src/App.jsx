@@ -526,14 +526,34 @@ export default function App() {
         )}
 
         {/* footer */}
-        <div className="mt-8 flex items-center justify-center">
+        <div className="mt-8 flex flex-col items-center justify-center gap-2">
           <div className="inline-flex items-center gap-2 text-[12px] text-[#9A9A9A]">
             <span>a project by</span>
-            <a href="https://twitter.com/efeis1" target="_blank" rel="noopener noreferrer" className="font-semibold text-[#4C4C4C] hover:underline" aria-label="efeis on twitter">efeis</a>
+            <a
+              href="https://twitter.com/efeis1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-[#4C4C4C] hover:underline"
+              aria-label="efeis on twitter"
+            >
+              efeis
+            </a>
             <img src={logo} alt="efeis logo" className="h-4 w-4 object-contain" />
           </div>
+          <a
+            href="https://github.com/efeis/trackpad-theremin"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="gitHub repository"
+          >
+            <img
+              src={import.meta.env.BASE_URL + 'github.svg'}
+              alt="GitHub"
+              className="h-5 w-5 opacity-80 hover:opacity-100"
+            />
+          </a>
         </div>
-      </div>
+      </div>  
     </div>
   );
 }
