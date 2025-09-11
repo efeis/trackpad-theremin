@@ -63,7 +63,7 @@ try it here:
 
 ## troubleshooting
 
-- **no sound**: click the pad once to unlock audio. Check system output device/volume.
+- **no sound**: click the pad once to unlock audio. check system output device/volume.
 - **recording button disabled or no file after stop**: your browser may not support `MediaRecorder` for audio—try chrome or firefox.
 - **very harsh highs**: try **warm-saw** or **warm-square** wave types.
 
